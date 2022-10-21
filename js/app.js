@@ -3895,9 +3895,7 @@
             });
         }
     }
-    window.addEventListener("load", (function(e) {
-        initSliders();
-    }));
+    initSliders();
     let addWindowScrollEvent = false;
     setTimeout((() => {
         if (addWindowScrollEvent) {

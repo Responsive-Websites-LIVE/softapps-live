@@ -2678,16 +2678,11 @@ h6 {
 }
 
 @media (max-width: 35em) {
-  .footer__column {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
-  }
-
   .footer__title {
     position: relative;
     padding-left: 1.875rem;
     padding-right: 1.875rem;
+    width: 100%;
   }
 
   .footer__title::before {
@@ -3408,6 +3403,15 @@ h6 {
 
   .preview-slider__next-button {
     display: none;
+  }
+}
+
+@media (max-width: 35rem) {
+  .footer__column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    width: 100%;
   }
 }
 
